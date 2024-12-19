@@ -56,7 +56,7 @@ botonTres.addEventListener('click', function() {
         contenedor.textContent = (contenedor.textContent + gatoTres)
         console.log(contenedor.textContent);
         contadorTres++
-        contadorDos = contadorTres = 0
+        contadorDos = contadorUno = 0
     } else {
         contenedor.textContent = caja
         for (let i=1; i<=contadorCajas; i++) {
